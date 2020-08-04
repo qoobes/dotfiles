@@ -1,0 +1,51 @@
+{
+	"workbench.iconTheme": "material-icon-theme",
+	"workbench.colorTheme": "Community Material Theme Palenight High Contrast",
+	"workbench.colorCustomizations": {
+		"editorCursor.foreground": "#f4c2c2",
+		"terminalCursor.foreground": "#f4c2c2"
+	},
+	"vim.commandLineModeKeyBindings": [],
+	"vim.normalModeKeyBindingsNonRecursive": [
+		{
+			"before": [":"],
+			"commands": ["workbench.action.showCommands"]
+		},
+		{
+			"before": ["<C-b>"],
+			"commands": ["workbench.action.toggleSidebarVisibility"]
+		},
+		{
+			"before": [";", ";"],
+			"commands": ["workbench.action.files.save"]
+		},
+		{
+			"before": ["<leader>", "f"],
+			"commands": ["revealInExplorer"]
+		},
+		{
+			"before": ["<leader>", "r", "f"],
+			"commands": ["fileutils.renameFile"]
+		}
+	],
+
+	// prettier config
+	"editor.formatOnSave": true,
+	"editor.defaultFormatter": "esbenp.prettier-vscode",
+	"prettier.singleQuote": false,
+	"prettier.semi": false,
+	"prettier.trailingComma": "es5",
+	"prettier.useTabs": true,
+	"prettier.bracketSpacing": true,
+	"prettier.printWidth": 80,
+	"prettier.tabWidth": 2,
+	"prettier.jsxBracketSameLine": true,
+	"prettier.arrowParens": "avoid",
+	"gitlens.hovers.currentLine.over": "line",
+	"gitlens.views.repositories.location": "gitlens",
+	"gitlens.views.fileHistory.location": "gitlens",
+	"gitlens.views.lineHistory.location": "gitlens",
+	"gitlens.views.compare.location": "gitlens",
+	"gitlens.views.search.location": "gitlens",
+}
+
